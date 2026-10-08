@@ -7,6 +7,7 @@ A collection of individual machine learning projects. Each subfolder is a self-c
 | Project | Description |
 |---------|-------------|
 | [Migratory Birds](Migratory%20Birds/) | Work in progress |
+| [ImoCJ](ImoCJ/) | Apartment rent prediction for Cluj-Napoca (Selenium-scraped dataset, linear regression) |
 
 ## Adding a new project
 
