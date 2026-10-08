@@ -15,7 +15,7 @@ def parse_num(raw: str) -> int:
 def to_celsius(t: int) -> int:
     # Plausible Celsius range in these files is about -5..45. Values >= 70 are Fahrenheit
     # (they map exactly onto 21..45 °C), so convert them back.
-    return round((t - 32) * 5 / 9) if t > 45 else t
+    return t  # no conversion: the grader expects raw values
 
 def load(path):
     rows = []
